@@ -8,5 +8,9 @@ package com.tesco.enquiry.controller;
  *
  */
 public class CreditLmitEnquiryController {
-
+	
+	private String name;
+	private String name2;
+	private String name3;
+	private String name5;
 }
