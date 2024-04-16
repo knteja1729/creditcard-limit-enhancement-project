@@ -3,10 +3,20 @@
  */
 package com.tesco.enquiry.vaidator;
 
+import org.springframework.stereotype.Component;
+
+import com.tesco.enquiry.model.EnquiryRequest;
+
 /**
  * @author NarendraTeja by 06-Aug-2023
  *
  */
+
+@Component
 public class CreditLimitEnquiryValidator {
+	
+	public void valdateRequest(EnquiryRequest request) {
+		
+	}
 
 }

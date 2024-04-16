@@ -3,10 +3,15 @@
  */
 package com.tesco.enquiry.service;
 
+import com.tesco.enquiry.model.EnquiryRequest;
+import com.tesco.enquiry.model.EnquiryResponse;
+
 /**
  * @author NarendraTeja by 06-Aug-2023
  *
  */
-public class CreditLmitEnquiryServiceImpl {
+public interface ICreditLimitEnquiryService {
+	
+	public EnquiryResponse enquiry(EnquiryRequest creditLimitRequest);
 
 }
